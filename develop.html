@@ -10,7 +10,38 @@
        
 
 
+<p ></p>
+    
+<img src="">
 
-    hello world
+<script>
+
+let nom = document.querySelector("p");
+
+fetch("https://pokeapi.co/api/v2/pokemon/25")
+.then(response => response.json(name))
+
+.then(response => 
+nom.innerText = response.name)
+
+
+
+
+
+
+
+
+</script>
+<script>
+let imgPika = document.querySelector('img')
+
+fetch("https://pokeapi.co/api/v2/pokemon/25")
+.then(response => response.json(sprites.back_female))
+.then(response => 
+imgPika.innerText = https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/25.png)
+
+</script>
+
+
 </body>
 </html>
